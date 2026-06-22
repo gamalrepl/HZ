@@ -1,0 +1,106 @@
+Design and build a web application called "هندسة الزمن" (Time Engineering).
+
+The application must be entirely in Arabic and fully RTL (right-to-left). All text, layouts, timelines, and navigation directions must begin from the right side and move toward the left.
+
+This application is not a calendar, planner, or task manager. It is a visual and mental model for understanding and navigating time.
+
+The concept is based on the following hierarchy:
+
+الزمن → الوقت → العمر → السنة → الشهر → الأسبوع → اليوم
+
+The application should help the user mentally travel from their entire life down to a specific period.
+
+GENERAL DESIGN:
+
+* Extremely minimal.
+* White background.
+* Black text.
+* No unnecessary colors.
+* Large amounts of empty space.
+* Clean Arabic typography.
+* Modern and calm appearance.
+* No decorative icons.
+* No dashboard feeling.
+* No productivity app appearance.
+
+MAIN TITLE:
+هندسة الزمن
+
+LEVEL 1: العمر
+
+Display a horizontal timeline beginning from the right side.
+
+The label "عمري" appears on the right.
+
+Immediately after the label, place several points representing years.
+
+Example:
+
+عمري  ●2005 ●2006 ●2007 ●2026
+
+Only the beginning of the timeline contains year points.
+
+The remaining line continues toward the left as empty space representing the future.
+
+The timeline line itself should be continuous.
+
+Each point represents one year.
+
+The user can scroll horizontally through years.
+
+Clicking a year opens the next level.
+
+LEVEL 2: سنة محددة
+
+After selecting a year, display another horizontal timeline.
+
+Label:
+
+سنة محددة
+
+Each month is represented by a point.
+
+Example:
+
+سنة محددة
+
+● يناير ● فبراير ● مارس ● أبريل
+
+The direction must be right-to-left.
+
+Selecting a month opens the next level.
+
+LEVEL 3: شهر محدد
+
+The month itself should initially appear empty.
+
+No weeks or calendars are required initially.
+
+The space should remain available for future development.
+
+NAVIGATION:
+
+The experience should feel like zooming into time.
+
+Life → Year → Month
+
+Transitions should be smooth and animated.
+
+The user should feel that they are moving deeper into time.
+
+IMPORTANT:
+
+This is not Google Calendar.
+
+This is not a productivity system.
+
+This is a visual navigation system for time itself.
+
+The interface should feel calm, spacious, and philosophical.
+
+The goal is to reduce mental effort by externalizing the user's internal mental model of time.
+
+Technology recommendation:
+React + Tailwind CSS + Framer Motion.
+
+Make the experience feel like navigating through time itself.
